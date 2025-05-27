@@ -1,0 +1,4 @@
+.ant-upload-list .ant-upload-list-picture-card{
+    display: flex;
+    justify-content: space-between;
+}
