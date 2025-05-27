@@ -5,9 +5,7 @@ const LogoutModal: React.FC = ({ handleOk, isModalOpen, setIsModalOpen }) => {
     const handleCancel = () => {
         setIsModalOpen(false);
     };
-    const modalStyle = {
 
-    }
     const { Title, Paragraph } = Typography;
     return (
         <Modal
@@ -16,7 +14,6 @@ const LogoutModal: React.FC = ({ handleOk, isModalOpen, setIsModalOpen }) => {
             open={isModalOpen}
             onOk={handleOk}
             onCancel={handleCancel}
-            style={modalStyle}
             okText="Log out"
             cancelText="cancle"
             okButtonProps={{
